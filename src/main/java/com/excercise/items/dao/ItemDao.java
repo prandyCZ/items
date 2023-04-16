@@ -1,0 +1,1 @@
+package com.excercise.items.dao;import com.excercise.items.model.Item;import org.springframework.data.jpa.repository.JpaRepository;public interface ItemDao extends JpaRepository<Item, Long> {}
